@@ -1,0 +1,21 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="myAppTheme" parent="Base.Widget.AppCompat.ActionBar">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:buttonStyle">@style/Buttons</item>
+    </style>
+
+    <style name="Buttons">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">#f0a0006f</item>
+        <item name="android:text">@string/Boton1</item>
+        <item name="android:padding">2sp</item>
+    </style>
+</resources>
